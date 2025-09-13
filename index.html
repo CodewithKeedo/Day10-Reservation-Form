@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Reservation Form</h2>
+        <form id="reservationForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <div class="error" id="nameError"></div>
+
+            <label for="email">Email</label>
+            <input type="email" name="" id="email">
+            <div class="error" id="emailError"></div>
+
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+            <div class="error" id="dateError"></div>
+
+            <label for="time">Time</label>
+            <input type="time" name="time" id="time">
+            <div class="error" id="timeError"></div>
+
+            <button type="submit">Reserve</button>
+        </form>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
